@@ -1,0 +1,299 @@
+{
+  "best-products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Kopi Lampung",
+      "harga": 45000,
+      "is_ready": true,
+      "gambar": "lampung.png"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Kopi Gayo",
+      "harga": 65000,
+      "is_ready": true,
+      "gambar": "gayo.png"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Robusta",
+      "harga": 50000,
+      "is_ready": true,
+      "gambar": "robusta.png"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Arabica",
+      "harga": 45000,
+      "is_ready": true,
+      "gambar": "arabica.png"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Toraja",
+      "harga": 60000,
+      "is_ready": true,
+      "gambar": "toraja.png"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Kintamani",
+      "harga": 70000,
+      "is_ready": true,
+      "gambar": "kintamani.png"
+    }
+  ],
+  "keranjangs": [],
+  "pesanans": [
+    {
+      "nama": "Nando",
+      "alamat": "Bogor",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "2",
+          "keterangan": "Gula aren",
+          "products": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Arabica",
+            "harga": 45000,
+            "is_ready": true,
+            "gambar": "arabica.png"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_pemesanan": "3",
+          "keterangan": "Tanpa gula",
+          "products": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Toraja",
+            "harga": 60000,
+            "is_ready": true,
+            "gambar": "toraja.png"
+          },
+          "id": 2
+        },
+        {
+          "jumlah_pemesanan": "1",
+          "products": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Kintamani",
+            "harga": 70000,
+            "is_ready": true,
+            "gambar": "kintamani.png"
+          },
+          "id": 3
+        }
+      ],
+      "id": 1
+    },
+    {
+      "nama": "Broker",
+      "alamat": "Bogor",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "2",
+          "keterangan": "Gula aren",
+          "products": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Arabica",
+            "harga": 45000,
+            "is_ready": true,
+            "gambar": "arabica.png"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_pemesanan": "3",
+          "keterangan": "Tanpa gula",
+          "products": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Toraja",
+            "harga": 60000,
+            "is_ready": true,
+            "gambar": "toraja.png"
+          },
+          "id": 2
+        },
+        {
+          "jumlah_pemesanan": "1",
+          "products": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Kintamani",
+            "harga": 70000,
+            "is_ready": true,
+            "gambar": "kintamani.png"
+          },
+          "id": 3
+        }
+      ],
+      "id": 2
+    },
+    {
+      "nama": "Otong",
+      "alamat": "Bali",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "2",
+          "products": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Arabica",
+            "harga": 45000,
+            "is_ready": true,
+            "gambar": "arabica.png"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_pemesanan": "3",
+          "products": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Toraja",
+            "harga": 60000,
+            "is_ready": true,
+            "gambar": "toraja.png"
+          },
+          "id": 2
+        }
+      ],
+      "id": 3
+    },
+    {
+      "nama": "broker",
+      "alamat": "Bali",
+      "keranjangs": [],
+      "id": 4
+    },
+    {
+      "nama": "Eduardo",
+      "alamat": "London",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "10",
+          "keterangan": "Pakai gula",
+          "products": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Toraja",
+            "harga": 60000,
+            "is_ready": true,
+            "gambar": "toraja.png"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_pemesanan": "3",
+          "keterangan": "Tanpa gula",
+          "products": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Kintamani",
+            "harga": 70000,
+            "is_ready": true,
+            "gambar": "kintamani.png"
+          },
+          "id": 2
+        },
+        {
+          "jumlah_pemesanan": "5",
+          "products": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Arabica",
+            "harga": 45000,
+            "is_ready": true,
+            "gambar": "arabica.png"
+          },
+          "id": 3
+        }
+      ],
+      "id": 5
+    },
+    {
+      "nama": "scsdvaf",
+      "alamat": "csacdv",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "4",
+          "products": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Kintamani",
+            "harga": 70000,
+            "is_ready": true,
+            "gambar": "kintamani.png"
+          },
+          "id": 1
+        }
+      ],
+      "id": 6
+    },
+    {
+      "nama": "Alex",
+      "alamat": "Bogor",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "2",
+          "products": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Kintamani",
+            "harga": 70000,
+            "is_ready": true,
+            "gambar": "kintamani.png"
+          },
+          "id": 1
+        }
+      ],
+      "id": 7
+    },
+    {
+      "nama": "Budi",
+      "alamat": "Bogor",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "2",
+          "products": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Toraja",
+            "harga": 60000,
+            "is_ready": true,
+            "gambar": "toraja.png"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_pemesanan": "3",
+          "keterangan": "Gula merah",
+          "products": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Kintamani",
+            "harga": 70000,
+            "is_ready": true,
+            "gambar": "kintamani.png"
+          },
+          "id": 2
+        }
+      ],
+      "id": 8
+    }
+  ]
+}
